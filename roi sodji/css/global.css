@@ -1,0 +1,328 @@
+body{
+    align-items: center;
+    margin: 0 auto;
+    
+    
+}
+.contenu{
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+p{
+    text-align: center;
+    line-height: 25px;
+}
+span{
+    color: rgb(155, 24, 64);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+strong{
+    color: rgb(34, 197, 12);
+}
+
+.barvav{
+    align-items: center;
+    display: inline-flex;
+    margin: 0;
+
+}
+/*.social{
+    display: flex;
+}*/
+@media screen and (min-width:750px) {
+    .contenu{
+        max-width: 1200px;
+        margin: 0 auto;
+    } 
+    
+}
+.header{
+    background-color: rgb(159, 159, 161);
+    background-size: 100%;
+    z-index: 1;
+}
+.header .logo{
+    align-items: center;
+    display: flex;
+    
+
+}
+.header .logo h1{
+    font-size: 1.1rem;
+    color: blue;
+    padding: 1rem;
+    
+}
+.header .logo img{
+    border-radius: 45%;
+}
+.header li{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+    
+}
+.contenu{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+}
+.header a:hover{
+   color: brown;
+}
+li a{
+    text-decoration: none;
+    color: blue;
+}
+.header .right{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.right .social li{
+   /* display: flex;*/
+}
+.buger{
+    background: none;
+    border: none;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 1rem;
+    
+}
+.buger .bar{
+    display: block;
+    width: 22px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 80%;
+    
+}
+.buger .bar::before, .buger .bar::after {
+    display: block;
+    width: 22px;
+    height: 3px;
+    content: "";
+    background-color: blue;
+    position: absolute;
+    
+}
+.buger .bar::before{
+    transform: translateY(-8px);
+}
+.buger .bar::after{
+    transform: translateY(8px);
+}
+
+
+
+.contenu-liste .icon{
+    width: 18px;
+}
+@media screen and (max-width:750px) {
+
+}
+} 
+@media screen and (min-width:750px) {
+    .barnav{
+        display: flex;
+    
+}
+.buger{
+    display: none;
+} 
+}
+@media screen and (min-width:750px) {
+    .buger{
+        display: none;
+    } 
+}
+.sodji{
+    align-items: center;
+}
+section .contenu{
+    font-size: 1.2rem;
+    overflow: auto;
+}
+section .contenu h6{
+    color: rgb(155, 24, 64);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.contenu .grid{
+    
+}
+section .contenu .grid img{
+    /*position: absolute;*/
+    left: 60%;
+    width: 220px;
+    border-radius: 45%;
+    background-color: darkgrey ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .contenu .grid p{
+   /* text-align: center;*/
+    
+}
+.contenu h2{
+    color: blue;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.contenu .bibio h5{
+    color: rgb(155, 24, 64);
+    text-align: center;
+    font-size: 1.4rem;
+
+}
+   
+
+
+ .contenu .bibio .bibiocom{
+    display: flex;
+ }
+.contenu .bibio img{
+    width: 170px;
+}
+.bibio p{
+
+
+}
+.contenu .partieun{
+    display: flex;
+}
+.contenu .partiedeux{
+    display: flex;
+}
+.contenu .partietrois{
+    display: flex;
+}
+.contenu .partieun img{
+
+}
+
+@media screen and (min-width:750px){
+    section .contenu .grid img{
+        display: flex;
+        
+    }
+    .contenu{
+        position: relative;
+    }
+    h5{
+        text-align: center;
+        
+    }
+
+    .bibideux{
+        position: absolute;
+        width: 75%;
+        top: 45%;
+        left: 20%;
+    }
+    .unpartie{
+        position: absolute;
+        width: 75%;
+        top: 15%;
+        left: 20%; 
+    }
+    .deuxpartie{
+        position: absolute;
+        width: 75%;
+        top: 15%;
+        left: 20%;  
+    }
+    .troispartie{
+        position: absolute;
+        width: 75%;
+        top: 15%;
+        left: 20%;  
+    }
+   
+}
+@media screen and (max-width:749px){
+    .header .contenu{
+        padding: 0.2rem;
+        /*width: 300px;*/
+    }
+    .header .logo{
+        width: 60px;
+    }
+    
+    .header .logo img{
+        width: 55px;
+    }
+    .header .logo h1{
+        font-size: 0.8rem;
+        padding: 0.1rem;
+       width: 700px;
+    } 
+    header .barnav li{
+       /* position: absolute;*/
+        font-size: 0.9rem; 
+        padding: 0.8rem;
+        padding: 1rem 0rem; 
+       /* width: 200px;*/
+        top: ;
+    }
+    .header .right{
+        padding: 0.9rem; 
+        padding: 0rem 0rem;
+        /*width: 200px;*/
+        flex-direction: row; 
+    }
+    .contenu .bibio img{
+        width: 130px;
+    }
+    .contenu .partieun img{
+        width: 130px; 
+    }
+    .contenu .partiedeux img{
+        width: 130px;  
+    }
+    .contenu .partietrois img{
+        width: 130px;  
+    }
+}
+
+
+.footer{
+    /*position: relative;*/
+    background-color: rgb(159, 159, 161);
+   margin: 0 auto;
+   background-size: 100%;
+}
+
+.footer .contenu{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer .contenu li{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+    
+    
+}
+.footer .contenu h4{
+    top: 10%;
+    left: 10%;
+    color: blue;
+    text-align: center;
+    
+}
